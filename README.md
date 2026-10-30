@@ -10,7 +10,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b132b,50:1c2541,100:3a506b&height=220&section=header&text=Elhassan%20Mohamed&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Explainable%20%26%20Trustworthy%20AI%20%E2%80%A2%20Computer%20Vision%20%E2%80%A2%20Digital%20Twins&descSize=18&descAlignY=58" alt="Elhassan Mohamed - Explainable and Trustworthy AI, Computer Vision, Digital Twins" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=5BC0BE&center=true&vCenter=true&width=760&lines=Research+Associate+%40+The+Alan+Turing+Institute;Making+black-box+AI+justify+its+predictions;Computer+vision+that+helps+people+navigate+the+world;PhD+in+Electronic+Engineering%2C+University+of+Kent" alt="Rotating tagline" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=5BC0BE&center=true&vCenter=true&width=760&lines=Research+Associate+%40+The+Alan+Turing+Institute;Project+Bluebird%3A+first+AI+agent+to+pass+NATS+Area+Basic;Making+black-box+AI+justify+its+predictions;Computer+vision+that+helps+people+navigate+the+world;PhD+in+Electronic+Engineering%2C+University+of+Kent" alt="Rotating tagline" />
 
 <br/>
 
@@ -25,7 +25,7 @@
 
 ## 👋 Hi, I'm Dr. Elhassan Mohamed
 
-I am a **Research Associate in Safe, Explainable and Trustworthy AI at The Alan Turing Institute**, where I work on **Project Bluebird**, developing an expert machine learning system for air traffic control that is interpretable and explainable by design. The aim is an AI agent that can tell the controllers who work alongside it *what* it recommends and *why*.
+I am a **Research Associate in Safe, Explainable and Trustworthy AI at The Alan Turing Institute**, where I work on **Project Bluebird**, developing AI agents for air traffic control that are interpretable and explainable by design. The aim is an agent that can tell the controllers who work alongside it *what* it recommends and *why*. That work includes **Hawk**, the first AI agent to pass NATS's "Area Basic" training (see the highlight below).
 
 Before that, my PhD at the **University of Kent** focused on computer vision and deep learning for assistive robotics. I built systems that help visually impaired powered-wheelchair users understand their surroundings by classifying every pixel of the scene, and I took them off the workstation and onto a GPU-based board on a real wheelchair for practical evaluation.
 
@@ -41,11 +41,34 @@ Across all of it, one question keeps coming back: **how do we make a black-box m
 
 ---
 
+## 📌 Featured: Hawk is the first AI agent to pass NATS "Area Basic" training
+
+> 🎉 **September 2026.** Hawk, the rules-based agent I have been working on with the Project Bluebird team, became **the first AI agent to pass NATS's "Area Basic" air traffic control training**, assessed by real human instructors and examiners.
+
+**Why Hawk matters to me**
+
+- **It is not a black box.** Hawk is a rules-based, expert-elicited system, so every decision it makes can be traced back to a clear, human-understandable rule. In air traffic control, where trust and accountability are everything, explaining *why* an agent acted is just as important as the agent doing the right thing.
+- **It is flexible by design.** Hawk's knowledge is built from expert rules rather than locked inside an opaque model, so it can be adapted and reconfigured for other safety-critical or highly regulated sectors, anywhere decisions need to be both smart and explainable.
+
+**What's next**
+
+- Pushing Hawk further by blending in **symbolic learning**, so the system can learn and refine its own rules over time while staying transparent
+- Exploring how **large language models** could help it reason about trickier, more ambiguous situations, the way a human controller would
+- And then the real goal: the Advanced training course. No pressure, Hawk. 😅
+
+This is very much a team achievement. Thank you to my colleagues and to our partners at **NATS**, **The Alan Turing Institute** and the **University of Exeter**, and to **EPSRC** for funding through the Prosperity Partnership.
+
+[![Read the LinkedIn post](https://img.shields.io/badge/Read_the_LinkedIn_post-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/feed/update/urn:li:activity:7503034180604428291/)
+
+*Related reading:* [Human-in-the-Loop Testing of AI Agents for Air Traffic Control with a Regulated Assessment Framework](https://arxiv.org/abs/2601.04288) (Carvell et al.), which describes Hawk and the "Machine Basic Training" framework built on the NATS Area Basic curriculum.
+
+---
+
 ## 🚀 Current focus: Transparent AI agents for air traffic control
 
 Air traffic control is a safety-critical setting, so an agent that only outputs an action is not enough. Controllers need to see the reasoning behind it. Within Project Bluebird (a collaboration between NATS, The Alan Turing Institute and the University of Exeter) my work centres on:
 
-- Machine learning agents that are **interpretable and explainable by design**, not explained after the fact
+- Agents that are **interpretable and explainable by design**, not explained after the fact, such as Hawk, whose decisions trace back to expert-elicited rules
 - **Digital twins** of airspace as a place to develop, test and trust these agents
 - Human-in-the-loop AI that acts as a reliable partner to the operator rather than a replacement
 
@@ -110,6 +133,8 @@ Full list with citations: [ResearchGate profile](https://www.researchgate.net/pr
 - **Multipurpose neural networks**: one model trained to perform several related tasks (for example indoor and outdoor scene understanding) without retraining on a merged dataset
 - **Data-centric and lifelong learning**: models that improve as new data arrives, and how to decide which new data actually helps
 - **Robustness and supervision**: automatic weight updates can be exploited by attackers, so continually learning systems need oversight to stay reliable
+- **Symbolic learning for transparent agents**: letting a rules-based system learn and refine its own rules over time without becoming a black box
+- **LLM-assisted reasoning** for ambiguous, safety-critical situations, without losing explainability
 - **Multimodal understanding** and human-in-the-loop AI for decision support
 
 ---
@@ -173,6 +198,8 @@ I believe teaching should be practical and problem-based, so students leave able
 ## 🤝 Let's collaborate
 
 I am always glad to talk about explainable and trustworthy AI, computer vision for assistive technology, and AI for safety-critical decision support. If you are working on something similar, or want a reviewer, co-supervisor or speaker, get in touch.
+
+I would especially love to hear about technologies, approaches or research that could help an agent like Hawk get smarter without losing its transparency. Message me on LinkedIn.
 
 💼 **[LinkedIn](https://www.linkedin.com/in/elhassan-mohamed-546aa695/)** · 📚 **[ResearchGate](https://www.researchgate.net/profile/Elhassan-Mohamed-6)** · 🆔 **[ORCID](https://orcid.org/0000-0001-9746-1564)**
 
